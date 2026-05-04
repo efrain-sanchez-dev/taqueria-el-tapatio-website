@@ -149,10 +149,6 @@ footer a[href^="tel:"]:active {
   border-bottom: 1px solid #e67e22;
 }
 
-/*******************************
-            BUTTONS
-*******************************/
-
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -198,13 +194,9 @@ input[type=submit]:active {
   color: #fff;
 }
 
-/*******************************
-            HEADER
-*******************************/
-
 header {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/porsenna-min.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/porsenna-min.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -298,15 +290,7 @@ header {
 
 .sticky .logo-color { display: block; }
 
-/*******************************
-            HOME
-*******************************/
-
 .section-home .long-copy { margin-bottom: 30px; }
-
-/*******************************
-            MENU
-*******************************/
 
 .section-menu { padding: 0; }
 
@@ -348,10 +332,6 @@ header {
           transform: scale(1.55);
 }
 
-/*******************************
-            CITY
-*******************************/
-
 #map {
   width: 100%;
   height: 400px;
@@ -360,52 +340,6 @@ header {
   border: 1px solid rgba(255,255,255,.4);
   box-shadow: 0 15px 20px -12px rgba(255,255,255, .8);
 }
-
-/*******************************
-            CLIENTS
-*******************************/
-
-.section-clients {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/inside-min.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/inside-min.jpg);
-  background-size: cover;
-  color: #fff;
-  background-attachment: scroll;
-}
-
-blockquote {
-  padding: 2%;
-  font-style: italic;
-  line-height: 145%;
-  position: relative;
-  margin-top: 40px;
-}
-
-blockquote:before {
-  content: "\201C";
-  font-size: 500%;
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-}
-
-cite {
-  font-size: 90%;
-  margin-top: 25px;
-  display: block;
-}
-
-cite img {
-  height: 45px;
-  border-radius: 50%;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-/*******************************
-            FORM
-*******************************/
 
 .contact-form {
   width: 60%;
@@ -425,10 +359,6 @@ textarea {
 textarea { height: 100px; }
 
 input[type=checkbox] { margin: 10px 5px 10px 0; }
-
-/*******************************
-            FOOTER
-*******************************/
 
 footer {
   background-color: #333;
@@ -486,10 +416,6 @@ footer {
   transition: color 0.2s;
 }
 
-.fa-tripadvisor:hover { color: #00a680; }
-
-.fa-google-plus-official:hover { color: #dd4b39; }
-
 .fa-facebook:hover { color: #3b5998; }
 
 .fa-instagram:hover { color: #517fa4; }
@@ -499,10 +425,6 @@ footer p {
   text-align: center;
   margin-top: 20px;
 }
-
-/*******************************
-        MEDIA QUERIES
-*******************************/
 
 @media only screen and (max-width: 1200px) {
   .text-box {
